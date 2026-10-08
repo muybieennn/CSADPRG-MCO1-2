@@ -91,12 +91,12 @@ public class MC01_BasicIO_10_Java {
         double amount = sc.nextDouble();
         sc.nextLine();
         double[] exchangeRate = {1, 62, 0.40, 84, 72, 9};
-        double php = amount * exchangeRate[0];
-        double usd = amount * exchangeRate[1];
-        double jpy = amount * exchangeRate[2];
-        double gbp = amount * exchangeRate[3];
-        double eur = amount * exchangeRate[4];
-        double cny = amount * exchangeRate[5];
+        double php = amount / exchangeRate[0];
+        double usd = amount / exchangeRate[1];
+        double jpy = amount / exchangeRate[2];
+        double gbp = amount / exchangeRate[3];
+        double eur = amount / exchangeRate[4];
+        double cny = amount / exchangeRate[5];
         System.out.println();
         System.out.println("Exchanged Currency");
         System.out.println(
