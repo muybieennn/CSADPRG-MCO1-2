@@ -78,12 +78,12 @@ void main() {
 
 
     double exchangeRate[6] = {1, 62, 0.40, 84, 72, 9};
-    double php = amount*exchangeRate[0];
-    double usd = amount*exchangeRate[1];
-    double jpy = amount*exchangeRate[2];
-    double gbp = amount*exchangeRate[3];
-    double eur = amount*exchangeRate[4];
-    double cny = amount*exchangeRate[5];
+    double php = amount / exchangeRate[0];
+    double usd = amount / exchangeRate[1];
+    double jpy = amount / exchangeRate[2];
+    double gbp = amount / exchangeRate[3];
+    double eur = amount / exchangeRate[4];
+    double cny = amount / exchangeRate[5];
     printf("\nExchanged Currency\n");
     printf("[1] Philippine Peso (PHP) = %.2lf\n", php);
     printf("[2] United States Dollar (USD) = %.2lf\n", usd);
