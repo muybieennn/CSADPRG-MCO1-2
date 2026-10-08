@@ -112,8 +112,6 @@ fun main() {
     println("\n***")
     println("Choice = " + num)
 
-    // Every function is called because the specs indicated to show to be displayed one after the other.
-    // as this is just a basic input output project.
     println()
     registerAccName()
     println()
