@@ -63,11 +63,11 @@ fun currencyExchange () {
 
     println("\nExchanged Currency")
     println("[1] Philippine Peso (PHP) = " + "%.2f".format(srcAmount))
-    println("[2] United States Dollar (USD) = " + "%.2f".format(srcAmount * usdRate))
-    println("[3] Japanese Yen (JPY) = " + "%.2f".format(srcAmount * jpyRate))
-    println("[4] British Pound Sterling (GBP) = " + "%.2f".format(srcAmount * gbpRate))
-    println("[5] Euro (EUR) = " + "%.2f".format(srcAmount * eurRate))
-    println("[6] Chinese Yuan Renminni (CNY) = " + "%.2f".format(srcAmount * cnyRate))
+    println("[2] United States Dollar (USD) = " + "%.2f".format(srcAmount / usdRate))
+    println("[3] Japanese Yen (JPY) = " + "%.2f".format(srcAmount / jpyRate))
+    println("[4] British Pound Sterling (GBP) = " + "%.2f".format(srcAmount / gbpRate))
+    println("[5] Euro (EUR) = " + "%.2f".format(srcAmount / eurRate))
+    println("[6] Chinese Yuan Renminni (CNY) = " + "%.2f".format(srcAmount / cnyRate))
 
     println("\n***")
     println("Source Currency = Philippine Peso (PHP)")
